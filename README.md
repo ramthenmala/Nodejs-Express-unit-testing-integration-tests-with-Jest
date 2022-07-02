@@ -48,4 +48,5 @@ To mock an object method.
 ## jest.mock
 To mock a whole module.
 
-###### The smallest heading
+## beforeEach
+Runs before every test inside describe function.
