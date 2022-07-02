@@ -25,5 +25,6 @@ describe('TodoController', function () {
       req.body = todoData;
       TodoController.createTodo(req, res, next);
       expect(res.statusCode).toBe(201);
+      expect(res._isEndCalled()).toBeTruthy();
   })
 })
