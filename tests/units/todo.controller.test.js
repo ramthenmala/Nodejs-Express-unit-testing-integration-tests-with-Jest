@@ -1,7 +1,7 @@
 const TodoController = require('../../src/controller/todo/todo.controller.js')
 const TodoModel = require('../../src/models/todo/todo.schema.js')
 
-TodoModel.create = jest.fn()
+TodoModel.create = jest.fn();
 
 describe('TodoController', function () {
     it("Should Have CreateTodoFunction", ()=> {
