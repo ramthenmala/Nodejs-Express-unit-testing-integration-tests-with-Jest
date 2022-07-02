@@ -14,6 +14,7 @@
     "mongoose": "^6.4.2"
   },
   "devDependencies": {
-    "jest": "^28.1.2"
+    "jest": "^28.1.2",
+    "node-mocks-http": "^1.11.0"
   }
 }
