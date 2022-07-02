@@ -1,4 +1,4 @@
-# The largest heading
+# Jest Briefing
 ## jest.fn
 Reference Link [pluralsight](https://www.pluralsight.com/guides/how-does-jest.fn()-work)
 
@@ -41,7 +41,6 @@ expect(fn).toBeCalledTimes(n)
 expect(fn).toBeCalledWith(arg1, arg2, ...)
 expect(fn).lastCalledWith(arg1, arg2, ...)
 ```
-### How Does It Work?
 
 ## jest.spyOn
 To mock an object method.
