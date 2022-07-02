@@ -9,6 +9,6 @@ describe('TodoController', function () {
     });
     it("Should call todo method", ()=> {
         TodoController.createTodo();
-        expect(TodoModel.create).toBeCalled();
+        expect(TodoModel.create).toBeCalled(); 
     });
 })
