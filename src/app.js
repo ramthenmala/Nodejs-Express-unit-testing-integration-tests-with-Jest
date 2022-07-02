@@ -3,11 +3,10 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({
+    res.status(200).json({
       msg: 'Root Log',
     });
 })
-
 app.listen(3000, ()=> {
     console.log(`Listening on port 3000`)
 })
