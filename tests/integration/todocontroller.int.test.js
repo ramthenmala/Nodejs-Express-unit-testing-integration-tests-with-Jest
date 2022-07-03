@@ -1,4 +1,4 @@
-const supertest = require('supertest')
+const request = require('supertest');
 const app =  require('../../src/app.js')
 const newTodo = require('../mockData/todo/todo.json')
 
